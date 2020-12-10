@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/item_shop"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:title="shop"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/item_options"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="options"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/item_wallet"
+        android:icon="@drawable/ic_baseline_account_balance_wallet_24"
+        android:title="wallet"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/item_acme"
+        android:icon="@drawable/ic_baseline_redeem_24"
+        android:title="acme S.L"
+        app:showAsAction="never" >
+        <menu >
+            <item
+                android:id="@+id/item_shop1"
+                android:icon="@drawable/ic_baseline_shopping_cart_24"
+                android:title="shop"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/item_options1"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="options"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/item_wallet1"
+                android:icon="@drawable/ic_baseline_account_balance_wallet_24"
+                android:title="wallet"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+</menu>
